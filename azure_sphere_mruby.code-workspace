@@ -1,0 +1,39 @@
+{
+	"folders": [
+		{
+			"path": "mruby-2.1.1"
+		},
+		{
+			"path": "app"
+		}
+	],
+	"settings": {
+		"terminal.integrated.shell.windows": "cmd.exe",
+		"terminal.integrated.env.osx": {
+			"PATH": "/usr/local/gcc-arm-none-eabi-6-2017-q2-update/bin:/usr/local/gnu-mcu-eclipse/openocd/0.10.0-12-20190422-2015/bin:${env:PATH}"
+		},
+		"terminal.integrated.shell.linux": "/bin/bash",
+		"terminal.integrated.shellArgs.linux": [
+			"-l"
+		],
+		"terminal.integrated.env.linux": {
+			"PATH": "/usr/local/gcc-arm-none-eabi-6-2017-q2-update/bin:/usr/local/gnu-mcu-eclipse/openocd/0.10.0-12-20190422-2015/bin:${env:PATH}"
+		},
+		"files.associations": {
+			"const_defines.h": "c",
+			"string.h": "c"
+		},
+		"cmake.buildDirectory": "${workspaceRoot}/out/${buildType}-${command:azuresphere.AzureSphereTargetApiSet}",
+		"cmake.buildToolArgs": [
+			"-v"
+		],
+		"cmake.configureOnOpen": true,
+		"cmake.generator": "Ninja",
+		"C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+		"cmake.configureSettings": {
+			"CMAKE_TOOLCHAIN_FILE": "${command:azuresphere.AzureSphereSdkDir}/CMakeFiles/AzureSphereToolchain.cmake",
+			"AZURE_SPHERE_TARGET_API_SET": "latest-lts"
+		}
+	},
+	"terminal.integrated.automationShell.windows": ""
+}

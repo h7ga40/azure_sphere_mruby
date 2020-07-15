@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "MT3620 Mini Dev Board",
+            "includePath": [
+                "C:\\Program Files (x86)\\Microsoft Azure Sphere SDK\\Sysroots\\5\\usr\\include",
+                "${workspaceFolder}/../mruby-2.1.1/include"
+            ],
+            "defines": [
+                "HAVE_CONFIG_H",
+                "BUILDING_LIBCURL",
+                "WOLFSSL_USER_SETTINGS"
+            ],
+            "windowsSdkVersion": "10.0.17763.0",
+            "compilerPath": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Linux\\gcc_arm\\bin\\arm-none-eabi-gcc.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}

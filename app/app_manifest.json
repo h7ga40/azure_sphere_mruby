@@ -1,0 +1,13 @@
+{
+  "SchemaVersion": 1,
+  "Name": "app",
+  "ComponentId": "1689d8b2-c835-2e27-27ad-e894d6d15fa9",
+  "EntryPoint": "/bin/app",
+  "CmdArgs": [ "0ne00122D7C" ],
+  "Capabilities": {
+    "AllowedConnections": [ "global.azure-devices-provisioning.net", "iotc-ebc9b20f-21d1-4430-a0bd-3200f46b014f.azure-devices.net", "iotc-17c41a00-aec5-4356-a713-b45e6c8cad09.azure-devices.net", "iotc-0d50bab9-5db3-4191-9086-84c59dc44af0.azure-devices.net", "iotc-012b1e1b-3f60-404d-9442-48e898208408.azure-devices.net", "iotc-abb1dcc0-e1da-4f13-b010-ce5e267906ed.azure-devices.net", "iotc-427f3e30-05e9-4ab1-ab01-4dd5c4a5e236.azure-devices.net", "iotc-7686defe-1922-4a20-9e6b-e75334d5a26f.azure-devices.net", "iotc-cee9c58e-7cc5-4606-9c2f-1c35e5d443e3.azure-devices.net", "iotc-3f841695-082f-462e-9fc4-90fbd63c500d.azure-devices.net", "iotc-01827501-fd31-4f0a-a6d1-63331dbf109a.azure-devices.net" ],
+    "Gpio": [ "$SAMPLE_BUTTON_1", "$SAMPLE_LED" ],
+    "DeviceAuthentication": "a0912738-82c1-4241-ace5-5c838e63fd6e"
+  },
+  "ApplicationType": "Default"
+}
